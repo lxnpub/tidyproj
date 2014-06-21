@@ -22,7 +22,7 @@ First let's explain how the dataset is structured; then we walk step by step on 
 The dataset is divided into two subsets: "test" and "train", they have identical structures, but contain different observation records (based on different groups of subjects).
 
 
-### test set (2947 observations)
+#### test set (2947 observations)
                              test/subject_test.txt   #rows = 2947   #columns =   1
                                    test/X_test.txt   #rows = 2947   #columns = 561
                                    test/y_test.txt   #rows = 2947   #columns =   1
@@ -36,7 +36,7 @@ The dataset is divided into two subsets: "test" and "train", they have identical
         test/Inertial_Signals/total_acc_y_test.txt   #rows = 2947   #columns = 128
         test/Inertial_Signals/total_acc_z_test.txt   #rows = 2947   #columns = 128
 
-### train set (7352 observations)
+#### train set (7352 observations)
                            train/subject_train.txt   #rows = 7352   #columns =   1
                                  train/X_train.txt   #rows = 7352   #columns = 561
                                  train/y_train.txt   #rows = 7352   #columns =   1
@@ -52,7 +52,7 @@ The dataset is divided into two subsets: "test" and "train", they have identical
       
       
 For example, "test" subset has the following relavant files, each decribing different
-attributes (columns) for the 2947 observations (obs)
+attributes (columns) for the 2947 observations (obs).
 
                              test/subject_test.txt   #rows = 2947   #columns =   1  <- subject id for each obs
                                    test/X_test.txt   #rows = 2947   #columns = 561  <- 561 feature variables for each obs
@@ -67,4 +67,6 @@ attributes (columns) for the 2947 observations (obs)
         test/Inertial_Signals/total_acc_y_test.txt   #rows = 2947   #columns = 128  <- 128 elements for signal total_acc_y
         test/Inertial_Signals/total_acc_z_test.txt   #rows = 2947   #columns = 128  <- 128 elements for signal total_acc_z
         
-        
+The script "run_analysis.R" works as follows:
+
+
