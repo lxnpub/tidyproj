@@ -5,9 +5,7 @@ This file describes the variables, the data, and any transformations performed t
 clean up the data to create the independent dataset "independent_data.txt". The file
 contains 1 row of header (first row), and the rest data has 180 rows and 81 columns.
 
-There are 30 subjects in total. Each subject has 6 types of activities. There are 30x6=180
-combinations of pair (subject, activity). For each pair of (subject, activity), the average
-values for the 79 variables in the original feature set are computed.
+There are 30 subjects in total. Each subject has 6 types of activities (labeled as one of "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING"). There are 30x6=180 combinations of pair (subject, activity). For each pair of (subject, activity), the average values for the 79 variables (mean and standard derivation variables) in the original feature set are computed.
 
 #### Variables in "independent_data.txt"
 ```
@@ -97,7 +95,7 @@ values for the 79 variables in the original feature set are computed.
 #### The steps and transformations performed to create "independent_data.txt"
 
 
-1. Given test subset name "test", the script run_analysis.R reads all 12 files into 12 data frames, each contains 2974 observations:
+1. Given test subset name "test", the script run_analysis.R reads the 12 files under directory "test" into 12 data frames, each contains 2947 observations:
 
                              subject     (1 column)
                              activity    (1 column)
