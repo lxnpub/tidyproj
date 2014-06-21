@@ -84,7 +84,7 @@ The script "run_analysis.R" works as follows:
 
 2. Use cbind to bind all columns into one dataframe "test_df", which has 2947 obs. of 1715 variables
 3. Follow the same procedure for subset "train" to create a dataframe "train_df", which has 7352 obs. of 1715 variables
-4. Use rbind to merge two dataframes "test_df" and "train_df" into a full dataframe "full_df"
+4. Use rbind to merge two dataframes "test_df" and "train_df" into a full dataframe "full_df", which has 10299 obs. of 1715 variables
 5. Extract only the mean and standard deviation columns from the feature columns, and create an extracted dataframe "extract_df"
 6. Uses descriptive activity names to name the activities in "extract_df" according to the labels described in "activity_labels.txt"
 7. Apply "melt" and "dcast" functionsto on the newly created dataframe "extract_df" to create a second, independent tidy data set "independ_data" with the average of each variable for each activity and each subject
