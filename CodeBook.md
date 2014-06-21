@@ -8,14 +8,17 @@ contains 1 row of header (first row), and the rest data has 180 rows and 81 colu
 #### variables in "independent_data.txt":
   
    [1] "Subject"             : Subject id for this record
+   
    [2] "Activity"            : Activity label for this record, one of ("WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING")
+   
    [3] "tBodyAcc-mean()-X"   : average value of the feature variable "tBodyAcc-mean()-X" for this (subject, activity)
    [4] "tBodyAcc-mean()-Y"   : average value of the feature variable "tBodyAcc-mean()-Y" for this (subject, activity)           
    [5] "tBodyAcc-mean()-Z"   : average value of the feature variable "tBodyAcc-mean()-Z" for this (subject, activity)           
    [6] "tBodyAcc-std()-X"    : average value of the feature variable "tBodyAcc-std()-X" for this (subject, activity) 
    [7] "tBodyAcc-std()-Y"    : average value of the feature variable "tBodyAcc-std()-Y" for this (subject, activity) 
    [8] "tBodyAcc-std()-Z"    : average value of the feature variable "tBodyAcc-std()-Z" for this (subject, activity) 
-   [9] "tGravityAcc-mean()-X"    ... similar description  as above ...       
+   
+   [9] "tGravityAcc-mean()-X"    * * *  similar description  as above * * *      
   [10] "tGravityAcc-mean()-Y"     
   [11] "tGravityAcc-mean()-Z"           
   [12] "tGravityAcc-std()-X"            
@@ -85,8 +88,10 @@ contains 1 row of header (first row), and the rest data has 180 rows and 81 colu
   [76] "fBodyBodyGyroMag-mean()"        
   [77] "fBodyBodyGyroMag-std()"         
   [78] "fBodyBodyGyroMag-meanFreq()"    
-  [79] "fBodyBodyGyroJerkMag-mean()"      
-  [80] "fBodyBodyGyroJerkMag-std()"      ... similar description  as above ...
+  [79] "fBodyBodyGyroJerkMag-mean()"  
+  
+  [80] "fBodyBodyGyroJerkMag-std()"      * * * similar description  as above  * * *
+  
   [81] "fBodyBodyGyroJerkMag-meanFreq()" : average value of the feature variable "fBodyBodyGyroJerkMag-meanFreq()" for this (subject, activity)
   
 
