@@ -1,11 +1,11 @@
 tidyproj
 ========
 
-Project for "Getting and Cleaning Data"
+##Project for "Getting and Cleaning Data"
 
 This README file explains how the script works and how it creates the independent data set.
 
-How use the script "run_analysis.R"
+###How use the script "run_analysis.R"
 
 1. create a temp working directory say "tidywk"
 2. cd tidywk
