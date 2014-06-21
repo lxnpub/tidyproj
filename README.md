@@ -1,7 +1,4 @@
-tidyproj
-========
-
-##Project for "Getting and Cleaning Data"
+## Project for "Getting and Cleaning Data"
 
 This README file explains how the script works and how it creates the independent data set.
 
@@ -91,6 +88,6 @@ The script "run_analysis.R" works as follows:
 5. Extract only the mean and standard deviation columns from the feature columns, and create an extracted dataframe "extract_df"
 6. Uses descriptive activity names to name the activities in "extract_df" according to the labels described in "activity_labels.txt"
 7. Apply "melt" and "dcast" functionsto on the newly created dataframe "extract_df" to create a second, independent tidy data set "independ_data" with the average of each variable for each activity and each subject
-8. write the dataset "independ_data" to a text file "independent_data.txt"
+8. Write the dataset "independ_data" to a text file "independent_data.txt"
 
 
