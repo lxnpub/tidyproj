@@ -5,8 +5,8 @@ This file describes the variables, the data, and any transformations performed t
 clean up the data to create the independent dataset "independent_data.txt". The file
 contains 1 row of header (first row), and the rest data has 180 rows and 81 columns.
 
-#### variables in "independent_data.txt":
-  
+#### Variables in "independent_data.txt"
+```
    [1] "Subject"             : Subject id for this record
    
    [2] "Activity"            : Activity label for this record, one of ("WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING")
@@ -93,7 +93,7 @@ contains 1 row of header (first row), and the rest data has 180 rows and 81 colu
   [80] "fBodyBodyGyroJerkMag-std()"      * * * similar description  as above  * * *
   
   [81] "fBodyBodyGyroJerkMag-meanFreq()" : average value of the feature variable "fBodyBodyGyroJerkMag-meanFreq()" for this (subject, activity)
-  
+```  
 
 #### The steps and transformations performed to create "independent_data.txt"
 
