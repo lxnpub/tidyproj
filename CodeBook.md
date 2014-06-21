@@ -5,6 +5,10 @@ This file describes the variables, the data, and any transformations performed t
 clean up the data to create the independent dataset "independent_data.txt". The file
 contains 1 row of header (first row), and the rest data has 180 rows and 81 columns.
 
+There are 30 subjects in total. Each subject has 6 types of activities. There are 30x6=180
+combinations of pair (subject, activity). For each pair of (subject, activity), the average
+values for the 79 variables in the original feature set are computed.
+
 #### Variables in "independent_data.txt"
 ```
    [1] "Subject"             : Subject id for this record
@@ -15,7 +19,6 @@ contains 1 row of header (first row), and the rest data has 180 rows and 81 colu
    [6] "tBodyAcc-std()-X"    : average value of the feature variable "tBodyAcc-std()-X" for this (subject, activity) 
    [7] "tBodyAcc-std()-Y"    : average value of the feature variable "tBodyAcc-std()-Y" for this (subject, activity) 
    [8] "tBodyAcc-std()-Z"    : average value of the feature variable "tBodyAcc-std()-Z" for this (subject, activity)
-   
    [9] "tGravityAcc-mean()-X"    * * *  similar description  as above * * *      
   [10] "tGravityAcc-mean()-Y"     
   [11] "tGravityAcc-mean()-Z"           
