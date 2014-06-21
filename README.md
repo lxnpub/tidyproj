@@ -67,7 +67,7 @@ the "train" subset.
         
 The script "run_analysis.R" works as follows:
 
-1. Given test subset name "test", read all 12 files into 12 data frames, each contains 2974 observations:
+1. Given test subset name "test", read the 12 files under "test" directory into 12 data frames, each contains 2947 rows:
 
                              subject     (1 column)
                              activity    (1 column)
